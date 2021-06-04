@@ -1,7 +1,7 @@
 {
   "name": "CORONABOARD",
   "short_name": "CORONABOARD",
-  "start_url": "/",
+  "start_url": ".",
   "display": "standalone",
 	"theme_color": "#3366ff", 
 	"background_color": "#ffffff", 

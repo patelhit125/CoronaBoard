@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/coronaboard/static/css/main.0e4241fc.chunk.css",
-    "main.js": "/coronaboard/static/js/main.8f248ba2.chunk.js",
-    "main.js.map": "/coronaboard/static/js/main.8f248ba2.chunk.js.map",
-    "runtime-main.js": "/coronaboard/static/js/runtime-main.1eda43fe.js",
-    "runtime-main.js.map": "/coronaboard/static/js/runtime-main.1eda43fe.js.map",
+    "main.js": "/coronaboard/static/js/main.7a63000b.chunk.js",
+    "main.js.map": "/coronaboard/static/js/main.7a63000b.chunk.js.map",
+    "runtime-main.js": "/coronaboard/static/js/runtime-main.75edeb3f.js",
+    "runtime-main.js.map": "/coronaboard/static/js/runtime-main.75edeb3f.js.map",
     "static/css/2.8beb1efa.chunk.css": "/coronaboard/static/css/2.8beb1efa.chunk.css",
     "static/js/2.867f2e8a.chunk.js": "/coronaboard/static/js/2.867f2e8a.chunk.js",
     "static/js/2.867f2e8a.chunk.js.map": "/coronaboard/static/js/2.867f2e8a.chunk.js.map",
@@ -12,20 +12,20 @@
     "static/js/3.ad0ec54e.chunk.js.map": "/coronaboard/static/js/3.ad0ec54e.chunk.js.map",
     "static/js/4.b8e44d3c.chunk.js": "/coronaboard/static/js/4.b8e44d3c.chunk.js",
     "static/js/4.b8e44d3c.chunk.js.map": "/coronaboard/static/js/4.b8e44d3c.chunk.js.map",
-    "static/js/5.673c5f8d.chunk.js": "/coronaboard/static/js/5.673c5f8d.chunk.js",
-    "static/js/5.673c5f8d.chunk.js.map": "/coronaboard/static/js/5.673c5f8d.chunk.js.map",
+    "static/js/5.9e682e1e.chunk.js": "/coronaboard/static/js/5.9e682e1e.chunk.js",
+    "static/js/5.9e682e1e.chunk.js.map": "/coronaboard/static/js/5.9e682e1e.chunk.js.map",
     "static/js/6.4394c52c.chunk.js": "/coronaboard/static/js/6.4394c52c.chunk.js",
     "static/js/6.4394c52c.chunk.js.map": "/coronaboard/static/js/6.4394c52c.chunk.js.map",
     "static/js/7.50295400.chunk.js": "/coronaboard/static/js/7.50295400.chunk.js",
     "static/js/7.50295400.chunk.js.map": "/coronaboard/static/js/7.50295400.chunk.js.map",
     "static/js/8.87c2f3d2.chunk.js": "/coronaboard/static/js/8.87c2f3d2.chunk.js",
     "static/js/8.87c2f3d2.chunk.js.map": "/coronaboard/static/js/8.87c2f3d2.chunk.js.map",
-    "static/js/9.6272aa2e.chunk.js": "/coronaboard/static/js/9.6272aa2e.chunk.js",
-    "static/js/9.6272aa2e.chunk.js.map": "/coronaboard/static/js/9.6272aa2e.chunk.js.map",
+    "static/js/9.2ff64788.chunk.js": "/coronaboard/static/js/9.2ff64788.chunk.js",
+    "static/js/9.2ff64788.chunk.js.map": "/coronaboard/static/js/9.2ff64788.chunk.js.map",
     "static/js/10.8a64ba61.chunk.js": "/coronaboard/static/js/10.8a64ba61.chunk.js",
     "static/js/10.8a64ba61.chunk.js.map": "/coronaboard/static/js/10.8a64ba61.chunk.js.map",
-    "static/js/11.c92fa46a.chunk.js": "/coronaboard/static/js/11.c92fa46a.chunk.js",
-    "static/js/11.c92fa46a.chunk.js.map": "/coronaboard/static/js/11.c92fa46a.chunk.js.map",
+    "static/js/11.ab113d88.chunk.js": "/coronaboard/static/js/11.ab113d88.chunk.js",
+    "static/js/11.ab113d88.chunk.js.map": "/coronaboard/static/js/11.ab113d88.chunk.js.map",
     "static/js/12.eb4f9047.chunk.js": "/coronaboard/static/js/12.eb4f9047.chunk.js",
     "static/js/12.eb4f9047.chunk.js.map": "/coronaboard/static/js/12.eb4f9047.chunk.js.map",
     "static/js/13.7b711550.chunk.js": "/coronaboard/static/js/13.7b711550.chunk.js",
@@ -35,7 +35,7 @@
     "static/js/15.d02c3069.chunk.js": "/coronaboard/static/js/15.d02c3069.chunk.js",
     "static/js/15.d02c3069.chunk.js.map": "/coronaboard/static/js/15.d02c3069.chunk.js.map",
     "index.html": "/coronaboard/index.html",
-    "precache-manifest.0da48b3cb3432e9248a040516c57c2a8.js": "/coronaboard/precache-manifest.0da48b3cb3432e9248a040516c57c2a8.js",
+    "precache-manifest.32a39f245afdd66f31799c8cf8a30025.js": "/coronaboard/precache-manifest.32a39f245afdd66f31799c8cf8a30025.js",
     "service-worker.js": "/coronaboard/service-worker.js",
     "static/css/2.8beb1efa.chunk.css.map": "/coronaboard/static/css/2.8beb1efa.chunk.css.map",
     "static/css/main.0e4241fc.chunk.css.map": "/coronaboard/static/css/main.0e4241fc.chunk.css.map",
@@ -46,10 +46,10 @@
     "static/media/avatar-3.jpg": "/coronaboard/static/media/avatar-3.7ce49759.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1eda43fe.js",
+    "static/js/runtime-main.75edeb3f.js",
     "static/css/2.8beb1efa.chunk.css",
     "static/js/2.867f2e8a.chunk.js",
     "static/css/main.0e4241fc.chunk.css",
-    "static/js/main.8f248ba2.chunk.js"
+    "static/js/main.7a63000b.chunk.js"
   ]
 }
