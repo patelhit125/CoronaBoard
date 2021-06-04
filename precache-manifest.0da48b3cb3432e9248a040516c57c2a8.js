@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88842674229033a236455c969f39c6ec",
+    "revision": "741ce3eedc359d87d2c30bcd53823f90",
     "url": "/coronaboard/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/js/10.8a64ba61.chunk.js"
   },
   {
-    "revision": "0c2fbfcfe5cf98562d18",
-    "url": "/coronaboard/static/js/11.55c720fc.chunk.js"
+    "revision": "04a979d2ffa7b4203a46",
+    "url": "/coronaboard/static/js/11.c92fa46a.chunk.js"
   },
   {
     "revision": "93172d070460799a3def",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/js/main.8f248ba2.chunk.js"
   },
   {
-    "revision": "91578d628ac37bf0195c",
-    "url": "/coronaboard/static/js/runtime-main.39a633b2.js"
+    "revision": "3102ff96571fcad708fd",
+    "url": "/coronaboard/static/js/runtime-main.1eda43fe.js"
   },
   {
     "revision": "cbf9c83a4aea661d4c61e3272e5fe789",
