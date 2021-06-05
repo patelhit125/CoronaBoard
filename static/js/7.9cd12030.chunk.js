@@ -1,0 +1,2 @@
+(this.webpackJsonpcoronaboard=this.webpackJsonpcoronaboard||[]).push([[7],{230:function(a,n,t){"use strict";t.r(n);var e=t(0),r=t.n(e),i=t(177),c=t(74),o=t(32);n.default=function(){return r.a.createElement(i.a,{container:!0,spacing:o.f},r.a.createElement(c.a,{variant:"h1",align:"right"},"hiii"))}}}]);
+//# sourceMappingURL=7.9cd12030.chunk.js.map
