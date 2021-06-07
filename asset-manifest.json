@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/coronaboard/static/css/main.0e4241fc.chunk.css",
-    "main.js": "/coronaboard/static/js/main.fb6b3701.chunk.js",
-    "main.js.map": "/coronaboard/static/js/main.fb6b3701.chunk.js.map",
+    "main.js": "/coronaboard/static/js/main.f3f32db2.chunk.js",
+    "main.js.map": "/coronaboard/static/js/main.f3f32db2.chunk.js.map",
     "runtime-main.js": "/coronaboard/static/js/runtime-main.d5dbb4f2.js",
     "runtime-main.js.map": "/coronaboard/static/js/runtime-main.d5dbb4f2.js.map",
     "static/css/2.8beb1efa.chunk.css": "/coronaboard/static/css/2.8beb1efa.chunk.css",
-    "static/js/2.4dcfd39d.chunk.js": "/coronaboard/static/js/2.4dcfd39d.chunk.js",
-    "static/js/2.4dcfd39d.chunk.js.map": "/coronaboard/static/js/2.4dcfd39d.chunk.js.map",
+    "static/js/2.b48c272a.chunk.js": "/coronaboard/static/js/2.b48c272a.chunk.js",
+    "static/js/2.b48c272a.chunk.js.map": "/coronaboard/static/js/2.b48c272a.chunk.js.map",
     "static/js/3.102e6aad.chunk.js": "/coronaboard/static/js/3.102e6aad.chunk.js",
     "static/js/3.102e6aad.chunk.js.map": "/coronaboard/static/js/3.102e6aad.chunk.js.map",
     "static/js/4.b2ed88f9.chunk.js": "/coronaboard/static/js/4.b2ed88f9.chunk.js",
@@ -27,11 +27,11 @@
     "static/js/11.63f063dc.chunk.js": "/coronaboard/static/js/11.63f063dc.chunk.js",
     "static/js/11.63f063dc.chunk.js.map": "/coronaboard/static/js/11.63f063dc.chunk.js.map",
     "index.html": "/coronaboard/index.html",
-    "precache-manifest.b92dc0dbb15b4911574e8b14f150ddb0.js": "/coronaboard/precache-manifest.b92dc0dbb15b4911574e8b14f150ddb0.js",
+    "precache-manifest.f30fe7a924bffbbd30f38494aa054464.js": "/coronaboard/precache-manifest.f30fe7a924bffbbd30f38494aa054464.js",
     "service-worker.js": "/coronaboard/service-worker.js",
     "static/css/2.8beb1efa.chunk.css.map": "/coronaboard/static/css/2.8beb1efa.chunk.css.map",
     "static/css/main.0e4241fc.chunk.css.map": "/coronaboard/static/css/main.0e4241fc.chunk.css.map",
-    "static/js/2.4dcfd39d.chunk.js.LICENSE.txt": "/coronaboard/static/js/2.4dcfd39d.chunk.js.LICENSE.txt",
+    "static/js/2.b48c272a.chunk.js.LICENSE.txt": "/coronaboard/static/js/2.b48c272a.chunk.js.LICENSE.txt",
     "static/js/3.102e6aad.chunk.js.LICENSE.txt": "/coronaboard/static/js/3.102e6aad.chunk.js.LICENSE.txt",
     "static/media/avatar-1.jpg": "/coronaboard/static/media/avatar-1.cbf9c83a.jpg",
     "static/media/avatar-2.jpg": "/coronaboard/static/media/avatar-2.034d02d7.jpg",
@@ -40,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.d5dbb4f2.js",
     "static/css/2.8beb1efa.chunk.css",
-    "static/js/2.4dcfd39d.chunk.js",
+    "static/js/2.b48c272a.chunk.js",
     "static/css/main.0e4241fc.chunk.css",
-    "static/js/main.fb6b3701.chunk.js"
+    "static/js/main.f3f32db2.chunk.js"
   ]
 }
