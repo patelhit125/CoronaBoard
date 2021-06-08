@@ -1,14 +1,14 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e61e20135380a9a64dcfa17863d6ad1",
+    "revision": "4254576c374969756b04747b3a792936",
     "url": "/coronaboard/index.html"
   },
   {
-    "revision": "79e14c11927c7f8a63c7",
+    "revision": "f2608865a10e1f1cfac7",
     "url": "/coronaboard/static/css/2.8beb1efa.chunk.css"
   },
   {
-    "revision": "6fb63d48a829e733c665",
+    "revision": "2ff13e6b85f117104f3c",
     "url": "/coronaboard/static/css/main.0e4241fc.chunk.css"
   },
   {
@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/js/11.63f063dc.chunk.js"
   },
   {
-    "revision": "79e14c11927c7f8a63c7",
-    "url": "/coronaboard/static/js/2.b48c272a.chunk.js"
+    "revision": "f2608865a10e1f1cfac7",
+    "url": "/coronaboard/static/js/2.4dcfd39d.chunk.js"
   },
   {
     "revision": "f5172ba872870256bed286cf93821142",
-    "url": "/coronaboard/static/js/2.b48c272a.chunk.js.LICENSE.txt"
+    "url": "/coronaboard/static/js/2.4dcfd39d.chunk.js.LICENSE.txt"
   },
   {
     "revision": "fbd50cb79d12e26456a5",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/js/4.b2ed88f9.chunk.js"
   },
   {
-    "revision": "7c78768b05c47eadaf94",
-    "url": "/coronaboard/static/js/5.b8e8a914.chunk.js"
+    "revision": "4b69ed2c5363d8c672ea",
+    "url": "/coronaboard/static/js/5.6c4a2f39.chunk.js"
   },
   {
-    "revision": "135e3ee11b575f5f5e46",
-    "url": "/coronaboard/static/js/6.7d74f6dd.chunk.js"
+    "revision": "b82c6d77ba58507f5008",
+    "url": "/coronaboard/static/js/6.931c5b46.chunk.js"
   },
   {
     "revision": "2882d21c5ec82846ffa3",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/js/9.ec751361.chunk.js"
   },
   {
-    "revision": "6fb63d48a829e733c665",
-    "url": "/coronaboard/static/js/main.f3f32db2.chunk.js"
+    "revision": "2ff13e6b85f117104f3c",
+    "url": "/coronaboard/static/js/main.28b01a78.chunk.js"
   },
   {
-    "revision": "f68d9ef56b5ee21b1bf2",
-    "url": "/coronaboard/static/js/runtime-main.d5dbb4f2.js"
+    "revision": "ea9c3403c56d206c4b46",
+    "url": "/coronaboard/static/js/runtime-main.5b87fba7.js"
   },
   {
     "revision": "cbf9c83a4aea661d4c61e3272e5fe789",
