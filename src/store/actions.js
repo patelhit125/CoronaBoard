@@ -1,0 +1,1 @@
+export const MENU_OPEN = '@customization/MENU_OPEN';
