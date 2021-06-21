@@ -26,6 +26,13 @@ const useStyles = makeStyles((theme) => ({
     table: {
         minWidth: 350,
     },
+    th: {
+        position: 'sticky',
+        top: 0,
+        zIndex: 999,
+        backgroundColor: '#000',
+        color: '#fff',
+    },
     row: {
         padding: '1rem',
         paddingLeft: '1.5rem',
@@ -33,8 +40,9 @@ const useStyles = makeStyles((theme) => ({
         width: '30rem',
         whiteSpace: 'normal',
         position: 'sticky',
-        left: 0,
-        background: theme.palette.secondary.light
+        top: 0,
+        zIndex: 999,
+        background: theme.palette.background.default
     },
     cell: {
         padding: '1rem',
@@ -44,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
         whiteSpace: 'normal',
         position: 'sticky',
         left: 0,
-        background: theme.palette.secondary.light
+        background: theme.palette.background.default
     },
     confirmed: {
         color: theme.palette.error.main,
@@ -94,7 +102,7 @@ export default function StateWiseDataCard() {
                     <CardContent className="p-0">
                         <TableContainer>
                             <Table stickyHeader className={classes.table} size="small" aria-label="simple table">
-                                <TableHead>
+                                <TableHead className={classes.th}>
                                     <TableRow>
                                         <TableCell className={classes.row}>State</TableCell>
                                         <TableCell>Confirmed</TableCell>

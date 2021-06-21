@@ -82,6 +82,23 @@ const CasesByStatesChart = () => {
                     }
                 }
             },
+            responsive: [{
+                breakpoint: 789,
+                options: {
+                    plotOptions: {
+                      bar: {
+                        dataLabels: {
+                            hideOverflowingLabels: true,
+                        }
+                      }
+                    }
+                },
+                xaxis: {
+                    labels: {
+                        hideOverlappingLabels: true,
+                    },
+                },
+            }],
             grid: {
                 show: false,
             }
