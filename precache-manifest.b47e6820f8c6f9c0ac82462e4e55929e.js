@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c5df76bdb3fe721020806bced536a8b",
+    "revision": "7a723e546da13225defcd9f355664016",
     "url": "/coronaboard/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/css/3.8beb1efa.chunk.css"
   },
   {
-    "revision": "cd46bc8199b5c1c141e5",
+    "revision": "9f33c571544d2a3dda0a",
     "url": "/coronaboard/static/css/main.6aa6b33a.chunk.css"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/js/4.dff5e13a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "96be21da74504843d96e",
-    "url": "/coronaboard/static/js/5.90f173bc.chunk.js"
+    "revision": "7284d999cd38afbf8ce2",
+    "url": "/coronaboard/static/js/5.414ec0fe.chunk.js"
   },
   {
-    "revision": "e4951b4a904c027e1d1b",
-    "url": "/coronaboard/static/js/6.3ec3b70a.chunk.js"
+    "revision": "b443ad16aa33528dece2",
+    "url": "/coronaboard/static/js/6.ce0e1487.chunk.js"
   },
   {
     "revision": "610dd34946b5bf607203",
@@ -52,11 +52,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/js/8.f00554b6.chunk.js"
   },
   {
-    "revision": "cd46bc8199b5c1c141e5",
-    "url": "/coronaboard/static/js/main.790d062a.chunk.js"
+    "revision": "9f33c571544d2a3dda0a",
+    "url": "/coronaboard/static/js/main.cd9c5f53.chunk.js"
   },
   {
-    "revision": "5fc3f23ca00091889a35",
-    "url": "/coronaboard/static/js/runtime-main.b8e18573.js"
+    "revision": "c37658f1eb29dccd2024",
+    "url": "/coronaboard/static/js/runtime-main.4b851af9.js"
   }
 ]);
