@@ -15,7 +15,8 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: 'normal',
         "& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline": {
             borderColor: theme.palette.secondary.main,
-        }
+        },
+        height: '3.25rem'
     },
     dataCard: {
         marginTop: '1rem',
@@ -232,10 +233,10 @@ const Vaccination = () => {
                                                 Age: {dataData[data].sessions[sessions].min_age_limit}+
                                             </Grid>
                                             <Grid item xs={6} style={{color: dataData[data].sessions[sessions].available_capacity_dose1 === 0 ? theme.palette.error.main : theme.palette.success.main}}>
-                                                Dose 1: {dataData[data].sessions[sessions].available_capacity_dose1}
+                                                Dose 1: {dataData[data].sessions[sessions].available_capacity_dose1} <div> {dataData[data].sessions[sessions].vaccine} </div>
                                             </Grid>
                                             <Grid item xs={6} style={{color: dataData[data].sessions[sessions].available_capacity_dose2 === 0 ? theme.palette.error.main : theme.palette.success.main}}>
-                                                Dose 2: {dataData[data].sessions[sessions].available_capacity_dose2}
+                                                Dose 2: {dataData[data].sessions[sessions].available_capacity_dose2} <div> {dataData[data].sessions[sessions].vaccine} </div>
                                             </Grid>
                                         </Grid>
                                     ))}
