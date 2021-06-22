@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a723e546da13225defcd9f355664016",
+    "revision": "b1f099fe15d466b18de0b32a407cad5c",
     "url": "/coronaboard/index.html"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/js/4.dff5e13a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7284d999cd38afbf8ce2",
-    "url": "/coronaboard/static/js/5.414ec0fe.chunk.js"
+    "revision": "7ad9934f5d414c837c45",
+    "url": "/coronaboard/static/js/5.8b867b81.chunk.js"
   },
   {
     "revision": "b443ad16aa33528dece2",
@@ -48,15 +48,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/coronaboard/static/js/7.ec7e575b.chunk.js"
   },
   {
-    "revision": "afa33d4d1deb732cb41e",
-    "url": "/coronaboard/static/js/8.f00554b6.chunk.js"
+    "revision": "484321ad25d4daa8b1ff",
+    "url": "/coronaboard/static/js/8.22785a8b.chunk.js"
   },
   {
     "revision": "9f33c571544d2a3dda0a",
     "url": "/coronaboard/static/js/main.cd9c5f53.chunk.js"
   },
   {
-    "revision": "c37658f1eb29dccd2024",
-    "url": "/coronaboard/static/js/runtime-main.4b851af9.js"
+    "revision": "7bf434405ac6cbf2a0c9",
+    "url": "/coronaboard/static/js/runtime-main.035d0578.js"
   }
 ]);
