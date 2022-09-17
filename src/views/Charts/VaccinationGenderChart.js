@@ -1,5 +1,6 @@
 import React from 'react';
 import Chart from 'react-apexcharts';
+import Cookies from 'universal-cookie';
 import { useTheme } from '@material-ui/styles';
 import { useState, useEffect } from 'react';
 import value from '../../assets/scss/_themes-vars.scss';
@@ -9,6 +10,7 @@ import { VACCINE_API, numDifferentiation } from '../../store/constant';
 
 const VaccinationCatergotyChart = () => {
   const theme = useTheme();
+  const cookies = new Cookies();
   const matchDownMd = useMediaQuery(theme.breakpoints.down('sm'));
   const matchDownXs = useMediaQuery(theme.breakpoints.down('xs'));
 
@@ -42,7 +44,10 @@ const VaccinationCatergotyChart = () => {
         },
       },
       tooltip: {
-        theme: 'dark',
+        theme: cookies.get('darkMode'),
+        style: {
+            fontFamily: `'Manrope', sans-serif`,
+        },
         y: {
           formatter: function (val) {
             return numDifferentiation(val)

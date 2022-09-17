@@ -1,6 +1,6 @@
 export const gridSpacing = 3;
 export const drawerWidth = 280;
-export const API_DOMAIN = 'https://api.covid19india.org';
+export const API_DOMAIN = 'https://data.covid19india.org';
 export const DATA_API_ROOT = `${API_DOMAIN}/v4/min`;
 export const VACCINE_API = 'https://api.cowin.gov.in/api/v1/reports/v2/getPublicReports';
 export const VACCINE_SETU_API = 'https://cdn-api.co-vin.in/api/v2';

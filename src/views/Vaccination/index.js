@@ -106,7 +106,7 @@ const Vaccination = () => {
                         }
                     })
                     .then((json) => {
-                        if(json === undefined || json.centers.length===0) { setDataData(true); }
+                        if (json === undefined || json.centers.length === 0) { setDataData(true); }
                         else {
                             setDataData(false);
                             setData(json.centers);
@@ -152,7 +152,7 @@ const Vaccination = () => {
                         <Grid item xs={12}>
                             <FormControl component="fieldset">
                                 <RadioGroup aria-label="select" name="select" value={valueRadio} onChange={handleRadioChange}>
-                                    <FormControlLabel value="pincode" control={<Radio color="primary" />} label="Pincode"  />
+                                    <FormControlLabel value="pincode" control={<Radio color="primary" />} label="Pincode" />
                                     <FormControlLabel value="district" control={<Radio color="primary" />} label="District" />
                                 </RadioGroup>
                             </FormControl>
@@ -210,47 +210,53 @@ const Vaccination = () => {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item xs={12} sm={9}>
-                    {!isData ? Object.keys(dataData).map((data, index) => (
-                        <Card key={index} className={classes.dataCard}>
-                            <CardContent>
-                                <Grid container>
-                                    <Grid item xs={9} className={classes.space}>
-                                        {dataData[data].name}
-                                        <div className={classes.secondaryText}>
-                                            {dataData[data].address}, {dataData[data].state_name} - {dataData[data].pincode}
-                                        </div>
-                                    </Grid>
-                                    <Grid item xs={3} container justify="flex-end" className={classes.colorSuccess}>
-                                        <Chip  style={{backgroundColor: dataData[data].fee_type === 'Paid' ? theme.palette.warning.main : theme.palette.success.main}} label={dataData[data].fee_type} />
-                                    </Grid>
-                                    {Object.keys(dataData[data].sessions).map((sessions, index) => (
-                                        <Grid key={index} container className={classes.dataCard}>
-                                            <Grid item xs={6}>
-                                                {dataData[data].sessions[sessions].date}
-                                            </Grid>
-                                            <Grid item xs={6} container justify="flex-end">
-                                                Age: {dataData[data].sessions[sessions].min_age_limit}+
-                                            </Grid>
-                                            <Grid item xs={6} style={{color: dataData[data].sessions[sessions].available_capacity_dose1 === 0 ? theme.palette.error.main : theme.palette.success.main}}>
-                                                Dose 1: {dataData[data].sessions[sessions].available_capacity_dose1} <div> {dataData[data].sessions[sessions].vaccine} </div>
-                                            </Grid>
-                                            <Grid item xs={6} style={{color: dataData[data].sessions[sessions].available_capacity_dose2 === 0 ? theme.palette.error.main : theme.palette.success.main}}>
-                                                Dose 2: {dataData[data].sessions[sessions].available_capacity_dose2} <div> {dataData[data].sessions[sessions].vaccine} </div>
-                                            </Grid>
+                {dataData.length > 0 ?
+                    <Grid item xs={12} sm={9}>
+                        {!isData ? dataData && Object.keys(dataData).map((data, index) => (
+                            <Card key={index} className={classes.dataCard}>
+                                <CardContent>
+                                    <Grid container>
+                                        <Grid item xs={9} className={classes.space}>
+                                            {dataData[data].name}
+                                            <div className={classes.secondaryText}>
+                                                {dataData[data].address}, {dataData[data].state_name} - {dataData[data].pincode}
+                                            </div>
                                         </Grid>
-                                    ))}
-                                </Grid>
-                            </CardContent>
-                        </Card>
-                    )) :
+                                        <Grid item xs={3} container justify="flex-end" className={classes.colorSuccess}>
+                                            <Chip style={{ backgroundColor: dataData[data].fee_type === 'Paid' ? theme.palette.warning.main : theme.palette.success.main }} label={dataData[data].fee_type} />
+                                        </Grid>
+                                        {Object.keys(dataData[data].sessions).map((sessions, index) => (
+                                            <Grid key={index} container className={classes.dataCard}>
+                                                <Grid item xs={6}>
+                                                    {dataData[data].sessions[sessions].date}
+                                                </Grid>
+                                                <Grid item xs={6} container justify="flex-end">
+                                                    Age: {dataData[data].sessions[sessions].min_age_limit}+
+                                                </Grid>
+                                                <Grid item xs={6} style={{ color: dataData[data].sessions[sessions].available_capacity_dose1 === 0 ? theme.palette.error.main : theme.palette.success.main }}>
+                                                    Dose 1: {dataData[data].sessions[sessions].available_capacity_dose1} <div> {dataData[data].sessions[sessions].vaccine} </div>
+                                                </Grid>
+                                                <Grid item xs={6} style={{ color: dataData[data].sessions[sessions].available_capacity_dose2 === 0 ? theme.palette.error.main : theme.palette.success.main }}>
+                                                    Dose 2: {dataData[data].sessions[sessions].available_capacity_dose2} <div> {dataData[data].sessions[sessions].vaccine} </div>
+                                                </Grid>
+                                            </Grid>
+                                        ))}
+                                    </Grid>
+                                </CardContent>
+                            </Card>
+                        )) :
+                            <Card className={classes.dataCard}>
+                                <CardContent>
+                                    No slots available
+                                </CardContent>
+                            </Card>
+                        }
+                    </Grid>
+                    : <Grid item xs={12} sm={9}>
                         <Card className={classes.dataCard}>
-                            <CardContent>
-                                No slots available for given pincode
-                            </CardContent>
+                            <CardContent>Please enter your pincode or select district</CardContent>
                         </Card>
-                    }
-                </Grid>
+                    </Grid>}
             </Grid>
         </Grid>
     );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useMediaQuery } from '@material-ui/core';
 import { IntlProvider } from 'react-intl';
 import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -11,9 +12,27 @@ import { StylesProvider } from '@material-ui/core/styles';
 const App = () => {
     const cookies = new Cookies();
 
+    const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+
+    let darkModeBool;
+    if (cookies.get('darkMode')) {
+        if (cookies.get('darkMode') === 'dark') {
+            darkModeBool = true;
+        } else {
+            darkModeBool = false;
+        }
+    } else {
+        if (prefersDarkMode) {
+            darkModeBool = true;
+        } else {
+            darkModeBool = false;
+        }
+        cookies.set('darkMode', prefersDarkMode);
+    }
+    
     const customization = {
         locale: 'en',
-        themeType: cookies.get('darkMode'),
+        themeType: darkModeBool ? 'dark' : 'light',
         direction: false
     };
 

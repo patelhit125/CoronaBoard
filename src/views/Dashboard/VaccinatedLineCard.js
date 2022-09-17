@@ -16,7 +16,6 @@ const useStyles = makeStyles(() => ({
 const VaccinatedLineCard = () => {
     const classes = useStyles();
     const theme = useTheme();
-
     const [dataData, setData] = useState([]);
 
     const getData = async () => {
@@ -52,6 +51,9 @@ const VaccinatedLineCard = () => {
             },
             tooltip: {
                 theme: 'dark',
+                style: {
+                    fontFamily: `'Manrope', sans-serif`,
+                },
                 fixed: {
                     enabled: false,
                 },

@@ -95,7 +95,7 @@ export function theme(customization) {
             },
         },
         typography: {
-            fontFamily: `'Poppins', sans-serif`,
+            fontFamily: `'Manrope', sans-serif`,
             h6: {
                 fontWeight: 600,
                 color: textSecondary,

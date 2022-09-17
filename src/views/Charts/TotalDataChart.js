@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTheme } from '@material-ui/styles';
 import Chart from 'react-apexcharts';
+import Cookies from 'universal-cookie';
 import { DATA_API_ROOT, gridSpacing, numDifferentiation } from '../../store/constant';
 import { Card, CardContent, Grid, Typography, CardHeader, Divider } from '@material-ui/core';
 import { useState, useEffect } from 'react';
@@ -8,7 +9,7 @@ const DATA_URL = `${DATA_API_ROOT}/timeseries.min.json`;
 
 const TotalDataChart = () => {
     const theme = useTheme();
-
+    const cookies = new Cookies();
     const [dataData, setData] = useState([]);
 
     const getData = async () => {
@@ -57,7 +58,10 @@ const TotalDataChart = () => {
                 width: 3,
             },
             tooltip: {
-                theme: 'dark',
+                theme: cookies.get('darkMode'),
+                style: {
+                    fontFamily: `'Manrope', sans-serif`,
+                },
                 fixed: {
                     enabled: false,
                 },

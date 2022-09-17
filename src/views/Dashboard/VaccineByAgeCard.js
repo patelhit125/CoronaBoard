@@ -43,6 +43,9 @@ const VaccineByAgeCard = () => {
             },
             tooltip: {
                 theme: 'dark',
+                style: {
+                    fontFamily: `'Manrope', sans-serif`,
+                },
                 y: {
                     formatter: function (val) {
                       return numDifferentiation(val)
